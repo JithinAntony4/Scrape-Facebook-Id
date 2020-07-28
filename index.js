@@ -1,12 +1,12 @@
-var getFacebookId = require('./lib/getFacebookId');
+let getFacebookId = require('./lib/getFbId');
 
-var isString = (s) => typeof s === 'string' || s instanceof String;
+const isString = (s) => typeof s === 'string' || s instanceof String;
 
 function getFacebookIds(usernames, cb) {
     /* usernames: Array
      * cb : Function */
-    var counter = 0;
-    var ids = {}; // username => id
+    let counter = 0;
+    let ids = {}; // username => id
 
     usernames.forEach((username) => getFacebookId(username, (id) => {
         ids[username] = id;

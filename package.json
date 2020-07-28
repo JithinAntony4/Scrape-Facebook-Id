@@ -1,6 +1,6 @@
 {
   "name": "scrape-facebook-id",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "This module is for finding facebook id by username.",
   "main": "index.js",
   "scripts": {
