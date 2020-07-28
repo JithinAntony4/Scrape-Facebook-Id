@@ -1,0 +1,32 @@
+{
+  "name": "scrape-facebook-id",
+  "version": "1.0.0",
+  "description": "This module is for finding facebook id by username.",
+  "main": "index.js",
+  "scripts": {
+    "bin": "node ./bin/getFbIds.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JithinAntony4/Scrape-Facebook-Id.git"
+  },
+  "keywords": [
+    "cli",
+    "username",
+    "facebook",
+    "facebook-id"
+  ],
+  "author": {
+    "name": "Jithin Antony",
+    "url": "jithin.co"
+  },
+  "bin": {
+    "get-fb-ids": "bin/getFbIds.js"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/JithinAntony4/Scrape-Facebook-Id/issues"
+  },
+  "homepage": "https://github.com/JithinAntony4/Scrape-Facebook-Id#readme"
+}
