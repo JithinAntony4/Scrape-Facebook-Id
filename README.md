@@ -25,8 +25,8 @@ Since the API of Facebook removed support for look up of id by username, it beca
 For example:
 
 ```
-> get-fb-ids zuck
-1311577170
+> get-fb-ids jithin.antony.official
+100045240849357
 ```
 
 Multiple ids could be fetch at once:
