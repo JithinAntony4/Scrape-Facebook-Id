@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 const getFacebookIds = require('../index');
 
-const usernames = process.argv.slice((process.argv[0] === 'get-fb-id')? 1: 2);
+const usernames = process.argv.slice((process.argv[0] === 'get-fb-ids')? 1: 2);
 
 const NOT_FOUND_MSG = (username) => `\`${username}\` not found`;
 
