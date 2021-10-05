@@ -66,4 +66,4 @@ The result of the above script would be `[100045240849357, 1234567, false]`.
 
 
 ## License
-ISC
+This project is licensed under the MIT license, Copyright (c) 2021 Jithin Antony. For more information see LICENSE.md.
