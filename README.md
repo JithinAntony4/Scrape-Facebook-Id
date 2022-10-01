@@ -1,5 +1,5 @@
 # Scrape-Facebook-Id
-This module is for finding facebook id by username
+This module is for finding facebook id by username 
 ## Preface
 
 Since the API of Facebook removed support for look up of id by username, it became quite inconvenient when our app requires that functionality. So I have created this simple interface for doing that.
