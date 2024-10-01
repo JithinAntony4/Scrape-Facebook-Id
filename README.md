@@ -8,6 +8,7 @@ Since the API of Facebook removed support for look up of id by username, it beca
 
 ### Local
 
+
 ```
 > npm i --save scrape-facebook-id
 ```
